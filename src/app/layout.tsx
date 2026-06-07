@@ -45,12 +45,9 @@ export const metadata: Metadata = {
 
 
 
+
 const montserrat = Montserrat({
   variable: "--font-montserrat",
-  subsets: ["latin"],
-});
-const inter = Inter({
-  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -62,7 +59,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
+        <body className={`${montserrat.variable} antialiased`}>
           <Tag />
           {children}
           <script
