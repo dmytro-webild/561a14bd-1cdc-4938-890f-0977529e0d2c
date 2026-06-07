@@ -90,7 +90,7 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/close-up-portrait-beautiful-smiling-woman-holding-cup-coffee-posing-kitchen-enjoying_1258-198203.jpg",          alt: "Close up portrait of beautiful smiling woman holding cup of coffee posing in the kitchen enjoying"},
       ]}
       avatarText="Loved by tea enthusiasts"
-      imageSrc="http://img.b2bpic.net/free-photo/sake-japanese-beverage-still-life_23-2150170129.jpg"
+      imageSrc="https://img.b2bpic.net/premium-photo/cup-coffee-wooden-table-with-sun-shining-through-trees_1206963-77578.jpg?id=335307984"
       imageAlt="Elegant tea restaurant interior with warm lighting and a tea set"
       showDimOverlay={false}
       showBlur={true}
@@ -158,7 +158,7 @@ export default function LandingPage() {
         {
           id: "p1",          name: "Imperial Oolong",          price: "$28.00",          variant: "50g Loose Leaf",          imageSrc: "http://img.b2bpic.net/free-photo/tasty-fresh-green-tea-glass-teapot-ceremony-old-rustic-table_1220-1712.jpg",          imageAlt: "Imperial Oolong tea"},
         {
-          id: "p2",          name: "Jasmine Green Tea",          price: "$22.00",          variant: "100g Loose Leaf",          imageSrc: "http://img.b2bpic.net/free-photo/creative-feng-shui-composition_23-2149058730.jpg",          imageAlt: "Jasmine Green tea"},
+          id: "p2",          name: "Jasmine Green Tea",          price: "$22.00",          variant: "100g Loose Leaf",          imageSrc: "https://img.b2bpic.net/free-photo/tea-picker-woman-s-asian-hands-close-up-pretty-tea-picking-girl-plantation_1150-14737.jpg?id=5216138",          imageAlt: "Jasmine Green tea"},
         {
           id: "p3",          name: "Ceremonial Matcha",          price: "$35.00",          variant: "30g Powder",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-composition-with-green-paint-bowl_23-2148292598.jpg",          imageAlt: "Ceremonial Matcha"},
         {
