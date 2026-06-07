@@ -9,6 +9,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Libre_Baskerville } from "next/font/google";
 import { DM_Sans } from "next/font/google";
 import { Montserrat } from "next/font/google";
+import { Figtree } from "next/font/google";
 
 
 
@@ -46,8 +47,9 @@ export const metadata: Metadata = {
 
 
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+
+const figtree = Figtree({
+  variable: "--font-figtree",
   subsets: ["latin"],
 });
 
@@ -59,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${montserrat.variable} antialiased`}>
+        <body className={`${figtree.variable} antialiased`}>
           <Tag />
           {children}
           <script
